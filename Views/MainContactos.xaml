@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Prueba_Maui.Views.MainContactos"
+             xmlns:model="clr-namespace:Prueba_Maui.Clases"
+             Title="Contactos App"
+             >
+    <Grid ColumnDefinitions="*" RowDefinitions="*,auto" BackgroundColor="Black">
+        <CollectionView x:Name="CollectionViewDataContactos" Grid.Column="1" x:DataType="model:Contacto" SelectionMode="Single" CanReorderItems="True">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Border BackgroundColor="Transparent" Margin="20">
+                    <Grid ColumnDefinitions="auto,*" RowDefinitions="*,*" ColumnSpacing="24" Margin="12">
+                        <Image 
+                            Source="dotnet_bot.svg" 
+                            Grid.RowSpan="2" 
+                            Grid.Column="0"
+                            HeightRequest="70"
+                            WidthRequest="70"
+                            Aspect="AspectFill"
+                            >
+                        </Image>
+                        <HorizontalStackLayout Grid.Row="0" Grid.Column="1">
+                            <Label 
+                                Text="{Binding Nombre}" 
+                                TextColor="White"
+                                FontSize="16"
+                                Padding="6"
+                                >
+                            </Label>
+                            <Label
+                                Text="{Binding Apellido}" 
+                                TextColor="White"
+                                FontSize="16"
+                                Padding="6"
+                            >
+                            </Label>
+                        </HorizontalStackLayout>
+                        <Label
+                            Text="{Binding NumeroTelefonico}" 
+                            TextColor="White"
+                            FontSize="20"
+                            Grid.Row="1"
+                            Grid.Column="1"
+                            Margin="6"
+                            >
+                            
+                        </Label>
+                    </Grid>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Button
+            x:Name="btnPija"
+            Grid.Row="1"
+            Text="Cuantas pijas has Probado?"
+            TextColor="White"
+            FontSize="16"
+            Padding="20"
+            Clicked="btnPija_Clicked"
+            >
+            
+        </Button>
+    </Grid>
+</ContentPage>
