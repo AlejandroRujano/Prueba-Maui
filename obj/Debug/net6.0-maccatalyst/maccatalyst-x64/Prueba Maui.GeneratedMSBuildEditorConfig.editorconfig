@@ -8,33 +8,33 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Prueba_Maui
-build_property.ProjectDir = C:\Users\Fran\Source\Repos\Prueba-Maui\
+build_property.ProjectDir = C:\Users\Fran\source\repos\Prueba-Maui\
 
-[C:/Users/Fran/Source/Repos/Prueba-Maui/App.xaml]
+[C:/Users/Fran/source/repos/Prueba-Maui/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Prueba_Maui.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Fran/Source/Repos/Prueba-Maui/AppShell.xaml]
+[C:/Users/Fran/source/repos/Prueba-Maui/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Prueba_Maui.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Fran/Source/Repos/Prueba-Maui/MainPage.xaml]
+[C:/Users/Fran/source/repos/Prueba-Maui/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Prueba_Maui.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/Fran/Source/Repos/Prueba-Maui/Resources/Styles/Colors.xaml]
+[C:/Users/Fran/source/repos/Prueba-Maui/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Prueba_Maui.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Fran/Source/Repos/Prueba-Maui/Resources/Styles/Styles.xaml]
+[C:/Users/Fran/source/repos/Prueba-Maui/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Prueba_Maui.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
