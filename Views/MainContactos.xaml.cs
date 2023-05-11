@@ -9,17 +9,21 @@ public partial class MainContactos : ContentPage
 	{
 		InitializeComponent();
 
-		for(int i=0; i<10; i++)
+		for(int i=0; i<12; i++)
 		{
 			_listaDeContactos.Add(new Contacto());
 		}
-
-		CollectionViewDataContactos.ItemsSource = _listaDeContactos;
+		CollectionViewContactos.ItemsSource = _listaDeContactos;
 	}
 
-    private void btnPija_Clicked(object sender, EventArgs e)
+    private void btnAgregarContacto_Clicked(object sender, EventArgs e)
     {
 		Contador++;
-		btnPija.Text = $"Has Probado: {Contador} Pijas";
+		btnAgregarContacto.Text = $"{Contador}";
+    }
+
+    private void CollectionViewContactos_SelectionChanged(object sender, SelectionChangedEventArgs e)
+    {
+		Shell.Current.GoToAsync(nameof(AgregarEditarContacto));
     }
 }

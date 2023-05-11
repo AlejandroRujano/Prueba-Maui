@@ -12,6 +12,7 @@ public partial class AppShell : Shell
 		//En donde, es necesario pasar como parametro, un string con la direccion y el tipo de la direccion
 
 		Routing.RegisterRoute(nameof(MainContactos), typeof(MainContactos));
+		Routing.RegisterRoute(nameof(AgregarEditarContacto), typeof(AgregarEditarContacto));
 	}
 	
 }
