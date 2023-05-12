@@ -15,14 +15,20 @@ public partial class MainContactos : ContentPage
 	}
     private void btnAgregarContacto_Clicked(object sender, EventArgs e)
     {
-        Shell.Current.GoToAsync($"{nameof(AgregarEditarContacto)}?Id=-1");
+        if (btnAgregarContacto.IsEnabled==true && Funciones.BtnPresionado == false)
+        {
+            Funciones.BtnPresionado = true;
+            
+            Shell.Current.GoToAsync($"{nameof(AgregarEditarContacto)}?Id=-1");
+        }
     }
     private void CollectionViewContactos_SelectionChanged(object sender, SelectionChangedEventArgs e)
     {
-		if(CollectionViewContactos.SelectedItem != null)
+		if(CollectionViewContactos.SelectedItem != null && Funciones.BtnPresionado == false)
 		{
+            Funciones.BtnPresionado = true;
             Shell.Current.GoToAsync($"{nameof(AgregarEditarContacto)}?Id={((Contacto)CollectionViewContactos.SelectedItem).Id}");
-            CollectionViewContactos.SelectedItem = null;
         }
+        CollectionViewContactos.SelectedItem = null;
     }
 }
