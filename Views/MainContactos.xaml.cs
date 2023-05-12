@@ -14,16 +14,18 @@ public partial class MainContactos : ContentPage
 			_listaDeContactos.Add(new Contacto());
 		}
 		CollectionViewContactos.ItemsSource = _listaDeContactos;
+		
 	}
-
     private void btnAgregarContacto_Clicked(object sender, EventArgs e)
     {
-		Contador++;
-		btnAgregarContacto.Text = $"{Contador}";
+        Shell.Current.GoToAsync(nameof(AgregarEditarContacto));
     }
-
     private void CollectionViewContactos_SelectionChanged(object sender, SelectionChangedEventArgs e)
     {
-		Shell.Current.GoToAsync(nameof(AgregarEditarContacto));
+		if(CollectionViewContactos.SelectedItem != null)
+		{
+            Shell.Current.GoToAsync(nameof(AgregarEditarContacto));
+            CollectionViewContactos.SelectedItem = null;
+        }
     }
 }
