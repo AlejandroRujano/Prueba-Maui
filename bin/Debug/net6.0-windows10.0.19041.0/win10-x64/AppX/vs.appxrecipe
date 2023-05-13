@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\aleja\Source\Repos\Prueba Maui\Prueba-Maui\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-13T03:22:56.411</Modified>
+      <Modified>2023-05-13T03:26:41.477</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba Maui\Prueba-Maui\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-05-13T03:22:55.696</Modified>
+      <Modified>2023-05-13T03:26:40.369</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba Maui\Prueba-Maui\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Prueba Maui.runtimeconfig.json">
       <PackagePath>Prueba Maui.runtimeconfig.json</PackagePath>
@@ -1064,7 +1064,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aleja\Source\Repos\Prueba Maui\Prueba-Maui\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\Prueba Maui.deps.json">
       <PackagePath>Prueba Maui.deps.json</PackagePath>
-      <Modified>2023-05-13T03:22:56.136</Modified>
+      <Modified>2023-05-13T03:26:41.213</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aleja\.nuget\packages\microsoft.maui.controls.ref.win\6.0.548\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
