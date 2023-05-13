@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q7HzQrylxkTX8MYGOJep3InKBnLtZrrirCxnojksENWt65rw+jsdcO+8xRgSiWrGmd3MGDRUCxxZpk/dOFQ70A==",
+  "dgSpecHash": "zph/PvMM2llyKt481MwykhAdJuj1iOhh0WdlNeHL16kQ9XON5Hm73M7jfFDu71ticdKNaCRXNDnri2RmLUJjeQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gipso\\Source\\Repos\\Prueba-Maui\\Prueba Maui.csproj",
+  "projectFilePath": "C:\\Users\\gipso\\source\\repos\\Prueba-Maui\\Prueba Maui.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gipso\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\gipso\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",

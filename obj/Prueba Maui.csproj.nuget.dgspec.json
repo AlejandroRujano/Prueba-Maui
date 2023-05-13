@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gipso\\Source\\Repos\\Prueba-Maui\\Prueba Maui.csproj": {}
+    "C:\\Users\\gipso\\source\\repos\\Prueba-Maui\\Prueba Maui.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gipso\\Source\\Repos\\Prueba-Maui\\Prueba Maui.csproj": {
+    "C:\\Users\\gipso\\source\\repos\\Prueba-Maui\\Prueba Maui.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gipso\\Source\\Repos\\Prueba-Maui\\Prueba Maui.csproj",
+        "projectUniqueName": "C:\\Users\\gipso\\source\\repos\\Prueba-Maui\\Prueba Maui.csproj",
         "projectName": "Prueba Maui",
-        "projectPath": "C:\\Users\\gipso\\Source\\Repos\\Prueba-Maui\\Prueba Maui.csproj",
+        "projectPath": "C:\\Users\\gipso\\source\\repos\\Prueba-Maui\\Prueba Maui.csproj",
         "packagesPath": "C:\\Users\\gipso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gipso\\Source\\Repos\\Prueba-Maui\\obj\\",
+        "outputPath": "C:\\Users\\gipso\\source\\repos\\Prueba-Maui\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
