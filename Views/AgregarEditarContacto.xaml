@@ -2,7 +2,11 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Prueba_Maui.Views.AgregarEditarContacto"
+<<<<<<< HEAD
              Title="Editar"
+=======
+             Title="AgregarEditarContacto"  
+>>>>>>> 5ff4597ff0028c2fbac06e450098b5f2e89dfa0f
              Shell.NavBarIsVisible="False"
              >
     <VerticalStackLayout>
@@ -31,6 +35,7 @@
          >
         </Image>
         <Label 
+<<<<<<< HEAD
             HorizontalTextAlignment="Center"
             VerticalTextAlignment="Center"
             Text="Nombre de contacto"
@@ -191,5 +196,19 @@
                 >
             </Button>
         </Grid>
+=======
+            x:Name="LabelDePrueba"
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button
+            x:Name="btnRegresar"
+            Padding="0"
+            Clicked="btnRegresar_Clicked"
+            Text="←"
+            FontSize="90"
+            >
+        </Button>
+>>>>>>> 5ff4597ff0028c2fbac06e450098b5f2e89dfa0f
     </VerticalStackLayout>
 </ContentPage>

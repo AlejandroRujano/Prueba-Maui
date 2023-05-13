@@ -25,6 +25,7 @@
                             HeightRequest="40" 
                             Placeholder="Buscar Contacto"
                             Grid.Column="0"
+                            TextColor="Black"
                             >
                         </Entry>
                         <Image 
@@ -69,11 +70,12 @@
                 HeightRequest="65"
                 WidthRequest="65"
                 Clicked="btnAgregarContacto_Clicked"
+                
                 >
         </Button>
         <Button
                 x:Name="btnFavoritos"
-                Text="*"
+                Text="★"
                 FontAttributes="Bold"
                 FontSize="32"
                 BorderColor="DarkSlateBlue" 

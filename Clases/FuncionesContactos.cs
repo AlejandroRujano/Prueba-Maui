@@ -9,7 +9,8 @@ namespace Prueba_Maui.Clases
     public class Funciones
     {
         private static List<Contacto> _listaDeContactosOriginal = new List<Contacto>();
-
+        private static bool _btnPresionado = false;
+        public static bool BtnPresionado { get { return _btnPresionado; } set { _btnPresionado = value; } }
         public static List<Contacto> ListaOriginal { get { return _listaDeContactosOriginal;} set {  _listaDeContactosOriginal = value; } }
         public static void LeerJsonContactos()
         {

@@ -12,6 +12,7 @@ public partial class AgregarEditarContacto : ContentPage
 		InitializeComponent();
 	}
 
+
 	public string ContactoId
 	{
 		set
@@ -27,4 +28,10 @@ public partial class AgregarEditarContacto : ContentPage
 			}
 		}
 	}
+
+    private void btnRegresar_Clicked(object sender, EventArgs e)
+    {
+		Funciones.BtnPresionado = false;
+        Shell.Current.GoToAsync("..");
+    }
 }
