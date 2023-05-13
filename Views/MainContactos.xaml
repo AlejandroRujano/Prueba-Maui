@@ -70,14 +70,13 @@
                 HeightRequest="65"
                 WidthRequest="65"
                 Clicked="btnAgregarContacto_Clicked"
-                
                 >
         </Button>
         <Button
                 x:Name="btnFavoritos"
                 Text="★"
                 FontAttributes="Bold"
-                FontSize="32"
+                FontSize="24"
                 BorderColor="DarkSlateBlue" 
                 BorderWidth="3"
                 CornerRadius="20"
